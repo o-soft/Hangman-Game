@@ -1,0 +1,100 @@
+main {
+
+  border: 1px solid red;
+  background: url("../images/psychic-green.png");
+  height: 481px;
+  margin: auto;
+
+}
+
+input {
+  border: 1px solid blue;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin-bottom: 15px;*/
+    line-height: 22px;
+    font-family: arial;
+    width: 70%;
+     min-height:5px;
+    display: inline-block;
+
+}
+
+header {
+  border: 1px solid orange;
+  background: url("../images/psychic-blue.png");
+}
+
+div {
+  background-color: #fbe6e2;
+  border: 1px solid purple;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-left: 41%;
+  width: 17%;
+  height: 360px;
+
+}
+
+footer {
+  border: 1px solid green;
+  background: url("../images/psychic-blue.png");
+}
+
+header {
+  width: 980px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+body {
+  width: 980px;
+  width: 100%;
+  margin: auto;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  line-height: 34px;
+  
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: pink;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-size: 45px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+  margin-top: 15px;
+}
+
+footer {
+  padding: 20px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 25px;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+}

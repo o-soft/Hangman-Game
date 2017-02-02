@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+
+    <title>80's Hangman Game</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1 class="title">Hangman</h1>
+
+      <p>Press any key to get started</p>
+      <p>
+      Wins
+      </p>
+      <p>
+      Current Word
+      </p>
+
+      <h2 class="attempt-title">number of guesses remaining </h2>
+
+      <ul class="hangman-word">
+        <li class="fillin" id="wins">wins</li>
+        <li class="fillin" id="lives">lives</li>
+        <li class="fillin" id="incorrect">incorrect</li>
+        <li class="fillin"id="loses">loses</li>
+        <li class="fillin"></li>
+        <li class="fillin"></li>
+      </ul>
+      
+      <p>Letters Guessed</p>
+      <h3 class="hangman-letters"></h3>
+
+      <input class="text-value" type="text" maxlength="1" onchange="setGuess(this.value)">
+      <button class="text-button" onclick="checkGuess()"></button>
+
+      <p class="letters-guessed"></p>
+
+    </div>
+    <script rel="stylesheet" type="text/javascript" src="assets/javascript/game1.js"></script>
+  </body>
+</html>
